@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 22px;
+	background-color: #E1F5FE;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+form, table {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.heading {
+	margin: 0 auto;
+	display: inline-block;
+	padding: 40px;
+	font-size: 30px;
+}
+
+table {
+	padding-top: 30px;
+}
+
+td {
+	padding: 10px 5px;
+}
+
+.removeButtonContainer {
+	padding-left: 120px;
+}
+
+input[type=text] {
+	//width: 40vw;
+	padding: 7px 15px;
+	font-size: 19px;
+	border-style: none none solid none;
+	border-radius: 2px 2px 0 0; 
+}
+
+input[type=checkbox] {
+	width: 25px;
+	height: 25px;
+}
+
+button, input[type=submit] {
+	background-color: #009688;
+	border-style: none;
+	padding: 12px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bolder;
+}
+
+#addButton {
+	background-color: #00796B;
+}
+
+td {
+	overflow: hidden;
+}
+
+.toDoText {
+	max-width: 70vw;
+	word-wrap: break-word;
+}
+
+@media only screen and (max-width: 500px) {
+
+	input[type=text] {
+		width: 50vw;
+	}
+	
+	.removeButtonContainer {
+		padding-left: 30px;
+	}
+
+	.toDoText {
+		max-width: 30vw;
+	}
+
+
+}
